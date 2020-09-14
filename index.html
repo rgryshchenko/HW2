@@ -49,8 +49,8 @@
 
     <fieldset>
         <legend> <strong> Contact information </strong> </legend>
-        <label>Name<input type="text" required></label>
-        <label>Surname<input type="text" required></label>
+        <label>Name<input type="text" required placeholder="Enter your name"></label>
+        <label>Surname<input type="text" required placeholder="Enter your Surname"></label>
     </fieldset>
 <br>
     <form>
@@ -58,21 +58,22 @@
     <h3>Choose your gender</h3>
        
     <input type="radio" id="male" name="gender" value="male">
-    <label for="male">Male </label><br>
+    <label for="male">Male </label>
     <input type="radio" id="female" name="gender" value="female" checked>
-    <label for="female">Female</label><br>
+    <label for="female">Female</label>
     <input type="radio" id="other" name="gender" value="other">
-    <label for="other">Other</label><br><br>
+    <label for="other">Other</label>
 
 
-    <p>Your comment<br>
-        <textarea name="comment" cols="40" rows="3"></textarea></p>
+    <p>Your comment</p>
+        <p><textarea name="comment" cols="40" rows="3" placeholder="Enter your comment"></textarea></p>
 
-        <select name="user_city">
-            <optgroup label="USA">
-              <option value="1">New-York</option>
+          <select name="user_city">
+              <option value="1" selected disabled>Enter your city</option> 
+              <optgroup label="USA">
+              <option value="1">New-York</option> 
               <option value="2">Washington</option>
-              <option value="3">Sacramento</option>              
+              <option value="3">Sacramento</option>                   
             </optgroup>
             <optgroup label="Ukraine">
               <option value="4">Kyiv</option>
