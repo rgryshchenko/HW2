@@ -27,16 +27,16 @@
         <td> cosmos@gmail.com </td>
       </tr>
       <tr>
-        <td> Sergii </td>
-        <td> Korolev </td>
-        <td> +38 (001) 36 58 965</td>
-        <td> cosmos@gmail.com </td>
+        <td> Antoine </td>
+        <td> Lavoisier </td>
+        <td> +38 (006) 37 58 965</td>
+        <td> burn@gmail.com </td>
       </tr>
       <tr>
-        <td> Sergii </td>
-        <td> Korolev </td>
-        <td> +38 (001) 36 58 965</td>
-        <td> cosmos@gmail.com </td>
+        <td> Mikhail </td>
+        <td> Lomonosov </td>
+        <td> +38 (853) 36 88 555</td>
+        <td> mass@gmail.com </td>
       </tr>
       <tr>
         <td> Sergii </td>
@@ -46,11 +46,54 @@
       </tr>
     </table>
 <br>
-    <fieldset style="width:75%">
-        <legend> Contact information </legend>
+    <fieldset style="width:24%">
+        <legend> <strong> Contact information </strong> </legend>
         <label>Name<input type="text" required></label>
         <label>Surname<input type="text" required></label>
     </fieldset>
+<br>
+    <h3>Choose your gender</h3>
     
+    <form>
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="male">Male </label><br>
+    <input type="radio" id="female" name="gender" value="female" checked>
+    <label for="female">Female</label><br>
+    <input type="radio" id="other" name="gender" value="other">
+    <label for="other">Other</label><br><br>
+    </form>
+
+    <p>Your comment<Br>
+        <textarea name="comment" cols="40" rows="3"></textarea></p>
+
+        <select name="user_city">
+            <optgroup label="USA">
+              <option value="1">New-York</option>
+              <option value="2">Washington</option>
+              <option value="3">Sacramento</option>
+            </optgroup>
+            <optgroup label="Ukraine">
+              <option value="4">Kyiv</option>
+              <option value="5">Lviv</option>
+              <option value="6">Kharkiv</option>
+            </optgroup>
+              <optgroup label="Belarus">
+              <option value="7">Minsk</option>
+              <option value="8">Mozir</option>
+              <option value="9">Gomel</option>
+            </optgroup>
+          </select>
+
+    <h3>Choose your language</h3>
+
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+        <label for="vehicle1"> English</label><br>
+        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+        <label for="vehicle2"> Ukrainian</label><br>
+        <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+        <label for="vehicle3"> Belorussian </label><br><br>
+
+    <p><input type="submit" value="Send">
+    <input type="reset" value="Reset"></p>
   </body>
 </html>
