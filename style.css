@@ -4,4 +4,13 @@ table, th, td {
     padding: 10px;
     text-align: center;
     background-color: #60ddc2;
+      }
+
+  h1{
+      color: blue;
+      text-align: center;
+  }
+
+  fieldset{
+    width: 10%;
   }

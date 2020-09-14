@@ -11,9 +11,9 @@
 
   </head>
   <body>
-    <h2>Basic HTML Table</h2>
+    <h1>HW#2 "Поняття Front-End. HTML"</h1>
 
-    <table style="width:75%">
+    <table style="width:100%">
       <tr>
         <th> Firstname </th>
         <th> Lastname </th> 
@@ -39,38 +39,40 @@
         <td> mass@gmail.com </td>
       </tr>
       <tr>
-        <td> Sergii </td>
-        <td> Korolev </td>
-        <td> +38 (001) 36 58 965</td>
-        <td> cosmos@gmail.com </td>
+        <td> Ivan </td>
+        <td> Pulyui </td>
+        <td> +38 (070) 37 56 655</td>
+        <td> electrical.engineering@gmail.com </td>
       </tr>
     </table>
 <br>
-    <fieldset style="width:24%">
+
+    <fieldset>
         <legend> <strong> Contact information </strong> </legend>
         <label>Name<input type="text" required></label>
         <label>Surname<input type="text" required></label>
     </fieldset>
 <br>
-    <h3>Choose your gender</h3>
-    
     <form>
+
+    <h3>Choose your gender</h3>
+       
     <input type="radio" id="male" name="gender" value="male">
     <label for="male">Male </label><br>
     <input type="radio" id="female" name="gender" value="female" checked>
     <label for="female">Female</label><br>
     <input type="radio" id="other" name="gender" value="other">
     <label for="other">Other</label><br><br>
-    </form>
 
-    <p>Your comment<Br>
+
+    <p>Your comment<br>
         <textarea name="comment" cols="40" rows="3"></textarea></p>
 
         <select name="user_city">
             <optgroup label="USA">
               <option value="1">New-York</option>
               <option value="2">Washington</option>
-              <option value="3">Sacramento</option>
+              <option value="3">Sacramento</option>              
             </optgroup>
             <optgroup label="Ukraine">
               <option value="4">Kyiv</option>
@@ -95,5 +97,7 @@
 
     <p><input type="submit" value="Send">
     <input type="reset" value="Reset"></p>
-  </body>
+
+    </form>
+</body>
 </html>

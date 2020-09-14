@@ -1,0 +1,1 @@
+Hi guys. Veriosn of my HW#2. Though without a sketch of styles ((
